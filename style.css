@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url(images/gab.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+.container h1{
+    color: wheat;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: lowercase;
+}
+
+.navbar ul li a{
+    background-color: black;
+    color: wheat;
+    border-bottom: 15px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 2.5s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px wheat inset, 0 3px 50px wheat inset, 0 3px 50px wheat inset, 0 3px 50px wheat inset, 0 3px 50px wheat inset, 0 3px 50px orangered inset;
+}
+
+.navbar .login{
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.content{
+    position: absolute;
+    color: antiquewhite;
+    top: 40%;
+    left: 30%;
+}
+
+.content h3{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.content p{
+    font-size: 20px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.content h1{
+    font-style: italic;
+}
+
+.content .fa-x-twitter{
+    font-size: 30px;
+    color: black;
+}
+
+.content .fa-facebook{
+    font-size: 30px;
+    color: blue;
+}
+
+.content .fa-instagram{
+    font-size: 30px;
+    color: orangered;
+}
